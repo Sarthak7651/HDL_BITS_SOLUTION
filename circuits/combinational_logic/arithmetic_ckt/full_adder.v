@@ -3,6 +3,6 @@ module top_module(
     output cout, sum );
     
     assign sum=a^b^c;
-    assign cout=a&b | (a^b)&c;
+    assign cout=a&b | (a^b)&cin;
 
 endmodule
